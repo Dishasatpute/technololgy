@@ -1,0 +1,294 @@
+/* header*/
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+body{
+  overflow-x: hidden;
+}
+.heading h1 {
+  text-decoration: none;
+  width: 100;
+  /*font-family: "Satisfy", cursive;*/
+}
+.heading h1:hover {
+  color: crimson;
+}
+p {
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.header {
+  background: url(../img/bacg.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.headerr {
+  background: url(../img/serv.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.header .navbar {
+  background-color: rgb(145, 141, 141);
+}
+
+.header .navbar:hover {
+  box-shadow: 0 4px 8px white;
+}
+.navbar-brand {
+ /* font-family: "Satisfy", cursive;*/
+  font-size: 30px;
+  margin-right: 50px;
+}
+/*.overlay{
+  background-color: rgba(0, 0, 0, 0.6);
+
+
+}
+.aboutimg{
+  background-image: url(D:\Boot\img\about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+.header .banner h1 {
+  position: relative;
+  top: 100px;
+  left: 10px;
+  font-size: 80px;
+}
+
+.service .card img {
+  width: 51%;
+  text-align: center;
+  margin-left: 70px;
+  border-radius: 50%;
+}
+.service .card {
+  border-bottom-left-radius: 30px;
+}
+.banner .text:hover {
+  color: blue;
+}
+
+.footer .text-info {
+  margin-left: 41px;
+  font-size: 17px;
+}
+
+.para .textt-light {
+  position: relative;
+  bottom: 1635px;
+  left: 351px;
+  color: #fff;
+}
+.col h1 {
+  text-shadow: 4px 5px 6px cyan;
+}
+.button_wraper {
+  position: relative;
+  left: 504px;
+}
+
+.col-md-3 .para {
+  position: relative;
+  bottom: 1635px;
+  left: 351px;
+  list-style: none;
+  color: #fff;
+}
+.textt-info {
+  margin-left: 100px;
+  position: relative;
+  left: 340px;
+  bottom: 1637px;
+  color: cyan;
+}
+
+.fa-brands {
+  margin-left: 66px;
+  text-decoration: none;
+  margin-bottom: -35px;
+}
+ul li a{
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;;
+}
+li{
+  list-style-type: none;
+}
+.btnn {
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  position: relative;
+  left: 100px;
+  background-color: cyan;
+}
+.form-control {
+  width: 350px;
+}
+
+.button.btn.btn-default.bg-black.text-light {
+  margin-left: 157px;
+}
+
+.contact .card img {
+  width: 20%;
+
+  text-align: center;
+  margin-left: 120px;
+
+  height: 500%;
+}
+
+.col-md-3 {
+  height: 100%;
+}
+.container{
+  margin-bottom: 30px;
+}
+
+ .row.container.card-img-top {
+    width: 88%;
+    height: 184px;
+    text-align: center;
+    margin-left: 5px;
+    position: relative;
+    bottom:1px;
+    left: 6px;
+}
+
+.roww .container {
+  padding-top: 600%;
+  left: 40px;
+}
+.roww .container .card-img-top {
+  border-radius: 50%;
+}
+
+.textT-info {
+  color: cyan;
+  position: relative;
+  left: 638px;
+  bottom: 2240px;
+}
+.carousel-item  img{
+  width: 440px;
+  height: 300px;
+}
+.para li a{
+    text-decoration: none;
+    list-style-type: none;
+}
+ .more.Foot_more{
+  text-decoration: none;
+   
+}
+
+.headd{
+
+    background: url(../img/serv.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .foot{
+    position: relative;
+    top:200px;
+  }
+ .about{
+  background: url(../img/advertise.webp);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+ }
+
+
+.img-fluid {
+    max-width: 101%;
+    height: auto;
+    position: relative;
+    right: 11px;
+    bottom: 0px;
+    
+    margin-right: 10;
+   
+}
+.row .bg-dark{
+
+ height: 100%;
+}
+
+.aboutpara{
+  text-align: justify;
+  width: 80%;
+  font-size: 20px;
+  position: relative;
+  left: 79px;
+  padding-top: 30px;
+}
+
+.advertise2{
+  text-align: justify;
+  width: 80%;
+  font-size: 20px;
+  position: relative;
+  left: 33px;
+  padding-top: 30px;
+}
+.form-controll{
+  height: 50px;
+  padding: 20px;
+  
+}
+ input {
+  width: 500px;
+
+  background: white;
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 15px;
+   margin-left: 75px;
+  margin-top: 10px;
+  
+}
+
+
+
+.label{
+  margin-left: 79px;
+}
+
+.navbar-toggler-icon{
+  background-color: #fff;
+}
+.main  {
+    margin-left: 41px;
+    font-size: 17px;
+  }
+
+
+@media screen and (min-width:300px) and (max-width:667) {
+  .header .banner h1{
+    font-size: 20px;
+}
+  .footer .bg-dark {
+    
+     text-align: center;
+  }
+.imgfoot{
+  text-align: center;
+}
+  .col-md-3 {
+    text-align: center;
+  }
+}
